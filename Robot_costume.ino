@@ -21,12 +21,18 @@ const Effect moods[][LEDS] = {
 // LED pin assignments    HEART  OK      ERROR
 LEDEffect leds[LEDS] = { { 5 },  { 6 },  { 7 } };
 
+const int MOODS = sizeof(moods)/sizeof(Effect)/LEDS;
+int currentMood = 0;
+int remainingTime = 0;
+
 void setup() {
   
 };
-
+  
 
 void loop() {
-  
-  
+
+ 
 };
+
+
